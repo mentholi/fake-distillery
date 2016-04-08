@@ -2,6 +2,11 @@
 
 Simple server for mocking Distillery in tests.
 
+# Installing
+```
+npm install
+```
+
 # Running
 ```
 node fake-distillery.js
