@@ -8,12 +8,17 @@ if (!configDir) {
   throw new Error('Config directory is required! Use --config');
 }
 
+var port = argv['port'];
+if (!port) {
+  port = 4000;
+}
+
 // Store reference to expressServer
 // globally so we can list all registred
 // routes on index view.
 expressServer = dyson.bootstrap({
   configDir: configDir,
-  port: 4000
+  port: port
 });
 
 // Provided dyson is installed globally,

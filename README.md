@@ -11,7 +11,7 @@ npm install
 
 # Running
 ```bash
-# node fake-api-service.js --config <path_to_service_definitions_dir>
+# node fake-api-service.js --config <path_to_service_definitions_dir> [--port 4000]
 node fake-api-service.js --config /var/data/service_mock
 ```
 
@@ -32,7 +32,7 @@ In order to use fake-api-service to mock external service you need to configure 
 Under the hood fake-api-service uses [Dyson](https://github.com/webpro/dyson) to generate dynamic fake api responses so you can prefer
 to it's documentation on how to define endpoints. There is also example on `example_services/get` which can be helpful.
 
-## quick start
+## Quick start
 1. Create following folder hierarchy
 ```bash
 mocked_external_service
