@@ -1,24 +1,24 @@
 {
-  "name": "fake-distillery",
-  "version": "0.0.1",
-  "description": "Mock version of Distillery service using dyson",
+  "name": "fake-api",
+  "version": "0.0.3",
+  "description": "Fake api service for mocking external resources in tests or during development",
   "author": {
     "name": "Arsi Halttunen",
     "email": "arsi@giosg.com"
   },
-  "main": "fake-distillery.js",
+  "main": "fake-api-service.js",
   "scripts": {
-    "start": "node ./fake-distillery.js"
+    "start": "node ./fake-api-service.js"
   },
   "dependencies": {
     "dyson": "0.10.0",
     "dyson-generators": "0.1.1",
-    "express-list-routes": "^0.1.4",
+    "minimist": "^1.2.0",
     "nodemon": "^1.9.1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mentholi/fake-distillery"
+    "url": "https://github.com/giosg/fake-api"
   },
   "engines": {
     "node": ">=0.8"
