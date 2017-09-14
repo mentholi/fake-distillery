@@ -9,16 +9,11 @@ cd fake-api
 npm install
 ```
 
-# Running
+# Running and watchin changes in source files
+Adjust paths accordingly in below command:
 ```bash
 # node fake-api-service.js --config <path_to_service_definitions_dir> [--port 4000]
-node fake-api-service.js --config /var/data/service_mock
-```
-
-# Development, running and watchin changes in source files
-```bash
-# nodemon fake-api-service.js --config <path_to_service_definitions_dir>
-nodemon fake-api-service.js --config example_services
+./node_modules/nodemon/bin/nodemon.js fake-api-service.js --config=/Users/arsi/dev/giosg_chat/giosg-chat/giosgchat/modules/selenium/tests/distillery_mock/
 ```
 
 # Using API
