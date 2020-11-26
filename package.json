@@ -11,10 +11,10 @@
     "start": "node ./fake-api-service.js"
   },
   "dependencies": {
-    "dyson": "0.10.0",
-    "dyson-generators": "0.1.1",
+    "dyson": "^3.0.4",
+    "dyson-generators": "^0.2.1",
     "minimist": "^1.2.0",
-    "nodemon": "^1.9.1"
+    "nodemon": "^1.19.4"
   },
   "repository": {
     "type": "git",

@@ -18,7 +18,9 @@ if (!port) {
 // routes on index view.
 expressServer = dyson.bootstrap({
   configDir: configDir,
-  port: port
+  https: false,
+  port: port,
+  quiet: false,
 });
 
 // Provided dyson is installed globally,
